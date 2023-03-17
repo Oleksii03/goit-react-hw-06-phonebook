@@ -1,7 +1,17 @@
 .AppContainer {
-  width: 800px;
+  display: flex;
+  flex-direction: column;
+
+  border: 3px solid #0e8348;
+  border-radius: 5px;
+  background-color: #90acb5;
+
+  padding: 40px 10px;
+  max-width: 800px;
+
   margin-right: auto;
   margin-left: auto;
+  margin-top: 50px;
 }
 
 .AppTitle {

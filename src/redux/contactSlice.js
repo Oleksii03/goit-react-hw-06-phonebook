@@ -1,11 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const contactsSlice = createSlice({
-  // Ім'я слайсу
   name: 'contacts',
-  // Початковий стан редюсера слайсу
   initialState: { items: [] },
-  // Об'єкт редюсерів
   reducers: {
     addContact(state, action) {
       console.log(action.payload);
@@ -17,7 +14,5 @@ const contactsSlice = createSlice({
   },
 });
 
-// Генератори екшенів
 export const { addContact, deleteContact } = contactsSlice.actions;
-// Редюсер слайсу
 export const contactsReducer = contactsSlice.reducer;

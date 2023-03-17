@@ -5,13 +5,17 @@
 }
 
 .filterContainer input {
-  width: 80%;
-  padding: 10px 20px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 650px;
+  width: 100%;
+  padding: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
   outline: none;
+  font-size: 20px;
 }
 
 .filterContainer input:focus {
-  border: 1px solid #1f1fac;
+  border: 1px solid #116f27;
 }

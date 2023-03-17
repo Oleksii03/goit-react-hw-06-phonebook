@@ -1,13 +1,10 @@
-// import PropTypes from 'prop-types';
 import { getFilteredContacts } from 'redux/selectors';
 import { useDispatch, useSelector } from 'react-redux';
-
 import css from './ContactList.module.css';
 import { deleteContact } from 'redux/contactSlice';
 
 function ContactList() {
   const dispatch = useDispatch();
-
   const filteredContacts = useSelector(getFilteredContacts);
 
   return (

@@ -1,10 +1,10 @@
 import { useDispatch } from 'react-redux';
 import { filterContacts } from 'redux/filterSlice';
-
 import css from './Filter.module.css';
 
 function Filter() {
   const dispatch = useDispatch();
+
   return (
     <div className={css.filterContainer}>
       <input
@@ -14,6 +14,7 @@ function Filter() {
       />
     </div>
   );
+
 }
 
 export default Filter;

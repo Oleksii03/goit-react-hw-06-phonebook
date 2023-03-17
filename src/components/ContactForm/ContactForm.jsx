@@ -1,5 +1,4 @@
 import { nanoid } from '@reduxjs/toolkit';
-
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getContacts } from 'redux/selectors';
